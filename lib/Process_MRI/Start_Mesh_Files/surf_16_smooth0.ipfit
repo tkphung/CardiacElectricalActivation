@@ -1,0 +1,39 @@
+CMISS Version 5.00 IPFIT File Version  1
+Heading:                                                                                 
+
+ Specify whether problem is (1)linear or (2)nonlinear [1]: 1
+ Specify the coordinate number to be fitted [1]:    1
+ Do you want to specify smoothing constraints [N]: y
+ For element 1:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 2:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 3:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 4:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 5:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 6:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 7:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 8:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 9:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 10:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 11:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 12:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 13:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 14:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 15:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+ For element 16:
+ The 5 weights on derivs wrt Xi_1/_11/_2/_22/_12 are [prev]: 0.10E+01 0.20E+01 0.10E+01 0.20E+01 0.40E+01
+

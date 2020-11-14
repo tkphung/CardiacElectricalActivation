@@ -1,0 +1,33 @@
+NAME=CRT006
+ID #=0000
+Date=06/08/2017
+Time=19:37:22
+SAMPLE RATE=2000 Hz
+SIGNAL RESOLUTION=78 nV/LSB
+I.Session 0 - Page 1.1.TXT,1,37,.5  Hz,10 Hz,White,ECG,,-
+II.Session 0 - Page 1.2.TXT,1,110,.5  Hz,10 Hz,White,ECG,,
+III.Session 0 - Page 1.3.TXT,1,183,.5  Hz,10 Hz,White,ECG,,
+aVR.Session 0 - Page 1.4.TXT,1,256,.5  Hz,10 Hz,White,ECG,,
+aVL.Session 0 - Page 1.5.TXT,1,329,.5  Hz,10 Hz,White,ECG,,
+aVF.Session 0 - Page 1.6.TXT,1,402,.5  Hz,10 Hz,White,ECG,,
+V1.Session 0 - Page 1.7.TXT,1,475,.5  Hz,10 Hz,White,ECG,,
+V2.Session 0 - Page 1.8.TXT,1,549,.5  Hz,10 Hz,White,ECG,,
+V3.Session 0 - Page 1.9.TXT,1,622,.5  Hz,10 Hz,White,ECG,,
+V4.Session 0 - Page 1.10.TXT,1,695,.5  Hz,10 Hz,White,ECG,,
+V5.Session 0 - Page 1.11.TXT,1,768,.5  Hz,10 Hz,White,ECG,,
+V6.Session 0 - Page 1.12.TXT,1,841,.5  Hz,10 Hz,White,ECG,,
+ABL d.Session 0 - Page 1.13.TXT,1,914,30 Hz,30 Hz,Lt Red,JBox,52,
+ABL p.Session 0 - Page 1.14.TXT,1,987,30 Hz,30 Hz,Lt Red,JBox,54,53
+I.Session 0 - Page 7.1.TXT,7,34,.5  Hz,10 Hz,White,ECG,,-
+II.Session 0 - Page 7.2.TXT,7,102,.5  Hz,10 Hz,White,ECG,,
+III.Session 0 - Page 7.3.TXT,7,171,.5  Hz,10 Hz,White,ECG,,
+aVR.Session 0 - Page 7.4.TXT,7,239,.5  Hz,10 Hz,White,ECG,,
+aVL.Session 0 - Page 7.5.TXT,7,307,.5  Hz,10 Hz,White,ECG,,
+aVF.Session 0 - Page 7.6.TXT,7,375,.5  Hz,10 Hz,White,ECG,,
+V1.Session 0 - Page 7.7.TXT,7,444,.5  Hz,10 Hz,White,ECG,,
+V2.Session 0 - Page 7.8.TXT,7,512,.5  Hz,10 Hz,White,ECG,,
+V3.Session 0 - Page 7.9.TXT,7,580,.5  Hz,10 Hz,White,ECG,,
+V4.Session 0 - Page 7.10.TXT,7,649,.5  Hz,10 Hz,White,ECG,,
+V5.Session 0 - Page 7.11.TXT,7,717,.5  Hz,10 Hz,White,ECG,,
+V6.Session 0 - Page 7.12.TXT,7,785,.5  Hz,10 Hz,White,ECG,,
+STIM.Session 0 - Page 7.15.TXT,7,990,DC,200 Hz,White,Stim,,

@@ -1,0 +1,34 @@
+function [signal] = MRI_ECGparse(fname)
+%[signal] = MRI_ECGparse(fname): takes in the *.ecg file from the Siemens
+%1.5 T MRI in Snyder and parses the ECG data.
+% [signal] = MRI_ECGparse(fname)
+% INPUT VARIABLE:
+%       fname- path+filename
+% CALCULATION:
+%       Reads in the two channels' data from the text file
+% OUPUT:
+%       signal- [time channel_1 channel_2]
+%
+% Thien-Khoi N. Phung (June 6, 2017- Happy Birthday Derek!)
+% Base off of the PHLEM toolbox (https://sites.google.com/site/phlemtoolbox/Home) function siemens_ECGload.m
+
+%% Load file
+% If no file present- prompt to find file
+if nargin < 1 | isempty(fname);
+  [filename filepath] = uigetfile('*.ecg','Get ECG File');
+  fname = fullfile(filepath,filename);
+end
+fclose('all');fid=fopen(fname);
+
+
+%% Parse through file
+% Signal recordings start with 6002
+starts = find(strcmp('6002',ECGfile{1}));
+
+% Go through each starting value and determine the 
+for jz = 1:numel(starts)
+    
+end
+
+%% Sampling rate
+sr = 400; % Hz (https://cfn.upenn.edu/aguirre/wiki/public:pulse-oximetry_during_fmri_scanning)
