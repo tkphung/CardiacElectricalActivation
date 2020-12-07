@@ -22,3 +22,6 @@ The two model parameters to vary are
 This script optimizes a single electrical activation model to match data from 12-lead ECG at baseline and after inducing Left Bundle Branch Block.
 The optimization first tunes the location of electrical activation initiation. Then the absolute conduction velocity is tuned to match the depolarization time measured from the ECG data.
 
+## MRI_to_Electrical_Pipeline.m
+This script shows all of the steps from segmented cardiac MRI (using Medviso's Segment) to simulate an electrical activation model. The script is setup as steps that can be run one-by-one to follow the creation and simulation of the model.
+The MRI segmentation files called in Step 1 can be accessed in the data directory and loaded into Medviso's Segment to visualize segmentation.
