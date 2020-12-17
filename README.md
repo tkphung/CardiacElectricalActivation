@@ -25,3 +25,6 @@ The optimization first tunes the location of electrical activation initiation. T
 ## MRI_to_Electrical_Pipeline.m
 This script shows all of the steps from segmented cardiac MRI (using Medviso's Segment) to simulate an electrical activation model. The script is setup as steps that can be run one-by-one to follow the creation and simulation of the model.
 The MRI segmentation files called in Step 1 can be accessed in the data directory and loaded into Medviso's Segment to visualize segmentation.
+
+## EP_Slab_Model.m
+This script creates a simple 3D slab for electrical activation simulation. This customizable parameters of this model include its geometry, fiber orientations, and conduction velocities.
