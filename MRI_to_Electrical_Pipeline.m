@@ -6,6 +6,7 @@
 % tree algorithm
 %
 % Thien-Khoi N. Phung (December 6, 2020)
+% Updated by TNP (December 17, 2020)
 
 % Steps for MRI model creation
 %     Step 1: Load in MRI segmentation
@@ -35,16 +36,31 @@
 % 4. LAfile: points placed at endocardial Apex location and at base of LV
 %            at the midpoint of the mitral valve
 
-% Does this data set include LGE scar?
-scar_flag = false; % CRT006 did not have LGE scar data
+
+% Choose available subject
+subject    = 'CRT006'; % either CRT006 (non-scar model) or CRT007 (scar model)
+
 
 % The data was segmented at End Diastole- indicate the frame number because
-% we segmented CINE MRI
-frameED = 25; % HARDCODED for data subject CRT006
+% we segmented CINE MRI (frameED)
+% Also indicate if the data has scar (scar_flag)
+if subject=='CRT006'
+    scar_flag = false; % CRT006 did not have LGE scar data
+    frameED = 25; % HARDCODED for data subject CRT006
+elseif subject=='CRT007'
+    scar_flag = true; % CRT007 DID have LGE scar data
+    frameED = 26; % HARDCODED for data subject CRT007
+else
+    error([subject ' data is not available.'])
+end
 
 % Path to the segmentation files
-SApath     = 'data/CRT006/CINE/'; % Short axis segmentations
+SApath     = ['data/' subject '/CINE/']; % Short axis segmentations
 LApath     = SApath;              % Long axis segmentation
+
+% LGE paths
+SApath2    = ['data/' subject '/LGE/']; % Short axis segmentations
+LApath2    = SApath;              % Long axis segmentation
 
 % Filenames
 LVepifile  = 'SA.mat';
@@ -166,7 +182,7 @@ MODEL.Qfcr  = Qfcr;  % Store Rotation Matrix (for electrical model)
 
 % Visualize Fiber Orientations
 H = FE_RenderPatchMesh(NODES,HEX,'elements',EPnodeIDX,'alpha',0,...
-                       'edgealpha',0.05);
+                       'edgealpha',0.05,'title','Fibers');
 hold on
 elemviz = EPnodeIDX;
 quiver3(HEXc(elemviz,1),HEXc(elemviz,2),HEXc(elemviz,3),...
@@ -321,7 +337,8 @@ Si = SAxis{end}.pts(3,:);
     % Transformation matrix
     Transform = [e1; e2; e3];
     
-G = figure('WindowStyle','docked'); hold on
+G = figure('WindowStyle','docked','NumberTitle','off','name','Scar Pixels');
+hold on
 axis equal tight,xlabel('X'),ylabel('Y'),zlabel('Z')
 title('Data in Cardiac Coordinates')
 
@@ -373,7 +390,7 @@ end
 % SAMPLE Geometry
 [qL,qM,qT] = LV_C2P(LVnodes(:,1),LVnodes(:,2),LVnodes(:,3),LVgeom.d);
 
-T = figure('WindowStyle','docked'); hold on
+T = figure('WindowStyle','docked','NumberTitle','off','name','Scar Interpolation'); hold on
 xlabel('\theta'),ylabel('\mu')
 title('Data Locations on Epi')
 colormap(flipud(colormap('parula')))
@@ -544,9 +561,9 @@ scardepth(scartrans<=0) = nan;
 eEPItr = mean(scartrans,2);
 eEPIwd = nanmean(scardepth,2); % mean that ignores nans
 
-% Data projected on epicardium
-FE_RenderPatchMesh(LVnodes,HEX(LVEpiMatrix(:),:),'data',eEPItr);
-colormap(flipud(viridis()))
+    % % Data projected on epicardium
+    % FE_RenderPatchMesh(LVnodes,HEX(LVEpiMatrix(:),:),'data',eEPItr);
+    % colormap(flipud(viridis()))
 
 % How many elements deep is scar?
 SCARlayers = round(eEPItr * LVRe);
@@ -581,7 +598,7 @@ for jz = 1:max(EPIstart)
 end
 
 H = FE_RenderPatchMesh(NODES,HEX,'elements',EPnodeIDX,'alpha',0,...
-                       'edgealpha',0.15);
+                       'edgealpha',0.15,'title','Scar Elements');
 FE_RenderPatchMesh(NODES,HEX,'elements',eSCAR,'facecolor',[1 0 0],...
                    'handle',H);
     

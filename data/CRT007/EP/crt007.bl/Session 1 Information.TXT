@@ -1,0 +1,35 @@
+NAME=CRT007
+ID #=0000
+Date=06/14/2017
+Time=19:43:22
+SAMPLE RATE=2000 Hz
+SIGNAL RESOLUTION=78 nV/LSB
+I.Session 1 - Page 1.1.TXT,1,34,.5  Hz,10 Hz,White,ECG,,-
+II.Session 1 - Page 1.2.TXT,1,102,.5  Hz,10 Hz,White,ECG,,
+III.Session 1 - Page 1.3.TXT,1,171,.5  Hz,10 Hz,White,ECG,,
+aVR.Session 1 - Page 1.4.TXT,1,239,.5  Hz,10 Hz,White,ECG,,
+aVL.Session 1 - Page 1.5.TXT,1,307,.5  Hz,10 Hz,White,ECG,,
+aVF.Session 1 - Page 1.6.TXT,1,375,.5  Hz,10 Hz,White,ECG,,
+V1.Session 1 - Page 1.7.TXT,1,444,.5  Hz,10 Hz,White,ECG,,
+V2.Session 1 - Page 1.8.TXT,1,512,.5  Hz,10 Hz,White,ECG,,
+V3.Session 1 - Page 1.9.TXT,1,580,.5  Hz,10 Hz,White,ECG,,
+V4.Session 1 - Page 1.10.TXT,1,649,.5  Hz,10 Hz,White,ECG,,
+V5.Session 1 - Page 1.11.TXT,1,717,.5  Hz,10 Hz,White,ECG,,
+V6.Session 1 - Page 1.12.TXT,1,785,.5  Hz,10 Hz,White,ECG,,
+ABL d.Session 1 - Page 1.13.TXT,1,853,30 Hz,30 Hz,Lt Red,JBox,52,
+ABLp.Session 1 - Page 1.14.TXT,1,922,30 Hz,100 Hz,Lt Red,JBox,54,53
+RVA d.Session 1 - Page 1.15.TXT,1,990,1  Hz,500 Hz,Cyan,JBox,42,41
+I.Session 1 - Page 7.1.TXT,7,34,.5  Hz,10 Hz,White,ECG,,-
+II.Session 1 - Page 7.2.TXT,7,102,.5  Hz,10 Hz,White,ECG,,
+III.Session 1 - Page 7.3.TXT,7,171,.5  Hz,10 Hz,White,ECG,,
+aVR.Session 1 - Page 7.4.TXT,7,239,.5  Hz,10 Hz,White,ECG,,
+aVL.Session 1 - Page 7.5.TXT,7,307,.5  Hz,10 Hz,White,ECG,,
+aVF.Session 1 - Page 7.6.TXT,7,375,.5  Hz,10 Hz,White,ECG,,
+V1.Session 1 - Page 7.7.TXT,7,444,.5  Hz,10 Hz,White,ECG,,
+V2.Session 1 - Page 7.8.TXT,7,512,.5  Hz,10 Hz,White,ECG,,
+V3.Session 1 - Page 7.9.TXT,7,580,.5  Hz,10 Hz,White,ECG,,
+V4.Session 1 - Page 7.10.TXT,7,649,.5  Hz,10 Hz,White,ECG,,
+V5.Session 1 - Page 7.11.TXT,7,717,.5  Hz,10 Hz,White,ECG,,
+V6.Session 1 - Page 7.12.TXT,7,785,.5  Hz,10 Hz,White,ECG,,
+RVA.Session 1 - Page 7.14.TXT,7,922,1  Hz,500 Hz,Cyan,JBox,44,
+STIM.Session 1 - Page 7.15.TXT,7,990,DC,200 Hz,White,Stim,,-

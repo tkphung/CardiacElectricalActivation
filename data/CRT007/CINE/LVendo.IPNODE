@@ -1,0 +1,330 @@
+CMISS Version 1.04 IPNODE File Version  1
+Heading: Template for epicardial geometry with fixed node placement
+
+ Specify the focus position [1.0]:  2.53616E+01
+ Number of nodes [  72]:   40
+ The number of derivatives for coordinate 1 is [0]: 3
+ The number of derivatives for coordinate 2 is [0]: 0
+ The number of derivatives for coordinate 3 is [0]: 0
+
+ Node number [   1]:    1
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.05061E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  6.42603E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  9.26901E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -1.53166E-03
+ The Xj(2) coordinate is [ 0.00000E+00]:  0.12000E+03
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.00000E+00
+
+ Node number [   2]:    2
+ The Xj(1) coordinate is [ 0.00000E+00]:  9.00820E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -4.85068E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  1.00794E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -1.85672E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.12000E+03
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.90000E+02
+
+ Node number [   3]:    3
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.34982E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  6.37852E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  7.35428E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  7.85821E-03
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.12000E+03
+ The Xj(3) coordinate is [ 0.90000E+02]:  0.18000E+03
+
+ Node number [   4]:    4
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.91518E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -1.14254E-01
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  1.08599E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  5.48284E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.12000E+03
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.27000E+03
+
+ Node number [   4]:    5
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.16964E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  5.32862E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  6.98273E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  2.44587E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.90000E+02
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.00000E+00
+
+ Node number [   4]:    6
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.76027E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  4.18461E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  1.64899E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -1.82134E-01
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.90000E+02
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.90000E+02
+
+ Node number [   1]:    7
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.89632E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  3.62722E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  5.30236E-03
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  4.52679E-02
+ The Xj(2) coordinate is [ 0.00000E+00]:  0.90000E+02
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.18000E+03
+
+ Node number [   2]:    8
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.69643E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -2.43219E-01
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  1.59115E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  1.16732E-01
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.90000E+02
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.27000E+03
+
+ Node number [   3]:    9
+ The Xj(1) coordinate is [ 0.00000E+00]:  6.93987E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  2.96508E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -1.95688E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  1.12466E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.60000E+02
+ The Xj(3) coordinate is [ 0.90000E+02]:  0.00000E+00
+
+ Node number [   4]:   10
+ The Xj(1) coordinate is [ 0.00000E+00]:  6.62164E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  1.22700E-01
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  2.42713E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  5.63725E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.60000E+02
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.90000E+02
+
+ Node number [   4]:   11
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.78198E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -3.61433E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  2.18618E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  5.11907E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.60000E+02
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.18000E+03
+
+ Node number [   4]:   12
+ The Xj(1) coordinate is [ 0.00000E+00]:  6.31245E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -1.69029E-01
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  6.44574E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -2.12373E-01
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.60000E+02
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.27000E+03
+
+ Node number [   1]:   13
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.65865E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -8.51627E-03
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -1.32115E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  8.47221E-03
+ The Xj(2) coordinate is [ 0.00000E+00]:  0.30000E+02
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.00000E+00
+
+ Node number [   2]:   14
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.43038E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  8.83456E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -1.69089E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  2.83473E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.30000E+02
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.90000E+02
+
+ Node number [   3]:   15
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.15637E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -7.69074E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -8.24570E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -5.33952E-03
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.30000E+02
+ The Xj(3) coordinate is [ 0.90000E+02]:  0.18000E+03
+
+ Node number [   4]:   16
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.12940E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -4.09322E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -2.07151E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -5.08927E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.30000E+02
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.27000E+03
+
+ Node number [   4]:   17
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.61679E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -2.61813E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.00000E+00
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.00000E+00
+
+ Node number [   4]:   18
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.61679E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  1.00167E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.00000E+00
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.90000E+02
+
+ Node number [   1]:   19
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.61679E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  2.61813E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(2) coordinate is [ 0.00000E+00]:  0.00000E+00
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.18000E+03
+
+ Node number [   2]:   20
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.61679E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -1.00167E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.00000E+00
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.27000E+03
+
+ Node number [   1]:   21
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.20101E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -7.94184E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  9.02353E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -3.28327E-03
+ The Xj(2) coordinate is [ 0.00000E+00]:  0.12000E+03
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.45000E+02
+
+ Node number [   2]:   22
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.97251E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  4.90158E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  9.74923E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  2.46614E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.12000E+03
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.13500E+03
+
+ Node number [   3]:   23
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.94750E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -1.84107E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  1.21373E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -3.01736E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.12000E+03
+ The Xj(3) coordinate is [ 0.90000E+02]:  0.22500E+03
+
+ Node number [   4]:   24
+ The Xj(1) coordinate is [ 0.00000E+00]:  9.06690E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  8.50851E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  7.95456E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -7.97768E-03
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.12000E+03
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.31500E+03
+
+ Node number [   4]:   25
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.33162E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -7.67065E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  7.75213E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -1.64076E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.90000E+02
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.45000E+02
+
+ Node number [   4]:   26
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.75865E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -4.84803E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  1.68891E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  2.15230E-01
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.90000E+02
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.13500E+03
+
+ Node number [   1]:   27
+ The Xj(1) coordinate is [ 0.00000E+00]:  6.54958E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  1.43162E-01
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  1.24065E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -1.78634E-01
+ The Xj(2) coordinate is [ 0.00000E+00]:  0.90000E+02
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.22500E+03
+
+ Node number [   2]:   28
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.16597E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  9.94808E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  1.08383E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  2.05155E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.90000E+02
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.31500E+03
+
+ Node number [   3]:   29
+ The Xj(1) coordinate is [ 0.00000E+00]:  6.95174E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -2.87922E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -1.11632E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -3.81259E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.60000E+02
+ The Xj(3) coordinate is [ 0.90000E+02]:  0.45000E+02
+
+ Node number [   4]:   30
+ The Xj(1) coordinate is [ 0.00000E+00]:  6.49839E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -1.43520E-01
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  4.19940E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -6.07673E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.60000E+02
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.13500E+03
+
+ Node number [   4]:   31
+ The Xj(1) coordinate is [ 0.00000E+00]:  6.34313E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  2.13971E-01
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -7.22461E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  8.15039E-03
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.60000E+02
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.22500E+03
+
+ Node number [   4]:   32
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.22215E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  3.88480E-04
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  6.18308E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  1.11115E-01
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.60000E+02
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.31500E+03
+
+ Node number [   1]:   33
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.74970E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -1.03333E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -1.56627E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -1.05122E-02
+ The Xj(2) coordinate is [ 0.00000E+00]:  0.30000E+02
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.45000E+02
+
+ Node number [   2]:   34
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.08890E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -5.74398E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -1.53631E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -8.79916E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.30000E+02
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.13500E+03
+
+ Node number [   3]:   35
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.56375E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  1.27583E-01
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -1.68471E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  1.15839E-01
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.30000E+02
+ The Xj(3) coordinate is [ 0.90000E+02]:  0.22500E+03
+
+ Node number [   4]:   36
+ The Xj(1) coordinate is [ 0.00000E+00]:  7.55974E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]: -2.58687E-02
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -1.37609E-01
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]: -4.77467E-02
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.30000E+02
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.31500E+03
+
+ Node number [   4]:   37
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.61679E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  7.16611E-03
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.00000E+00
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.45000E+02
+
+ Node number [   4]:   38
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.61679E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -3.42916E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.00000E+00
+ The Xj(3) coordinate is [ 0.18000E+03]:  0.13500E+03
+
+ Node number [   1]:   39
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.61679E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]: -7.16611E-03
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(2) coordinate is [ 0.00000E+00]:  0.00000E+00
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.22500E+03
+
+ Node number [   2]:   40
+ The Xj(1) coordinate is [ 0.00000E+00]:  8.61679E-01
+ The Xj(1) derivative wrt s(1) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(1) derivative wrt s(2) is [ 0.00000E+00]:  3.42916E-02
+ The Xj(1) derivative wrt s(1) & s(2) is [ 0.00000E+00]:  0.00000E+00
+ The Xj(2) coordinate is [ 0.12000E+03]:  0.00000E+00
+ The Xj(3) coordinate is [ 0.00000E+00]:  0.31500E+03
+
+
