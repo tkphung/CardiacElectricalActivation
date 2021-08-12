@@ -1,6 +1,5 @@
 # CardiacElectricalActivation
 Simple biventricular cardiac electrical activation model using shortest path tree algorithm
-[![DOI](https://zenodo.org/badge/312748480.svg)](https://zenodo.org/badge/latestdoi/312748480)
 
 # Model Creation
 The electrical model is based on a canine, biventricular geometry segmented from CINE MRI data. A finite-element mesh representing the left and right ventricular geometries was generated using methods previously published methods ([Herz+ 2020](https://doi.org/10.1007/s10439-005-3312-7), [Phung+ 2020](https://doi.org/10.1115/1.4043876)). The model geometry is stored in the variable `<MODEL>`. This information includes the neighbor connectivity as well as the directions of the myocardial muscle fibers in each element.
@@ -29,3 +28,5 @@ The MRI segmentation files called in Step 1 can be accessed in the data director
 
 ## EP_Slab_Model.m
 This script creates a simple 3D slab for electrical activation simulation. This customizable parameters of this model include its geometry, fiber orientations, and conduction velocities.
+
+[![DOI](https://zenodo.org/badge/312748480.svg)](https://zenodo.org/badge/latestdoi/312748480)
