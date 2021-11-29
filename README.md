@@ -1,5 +1,5 @@
 # CardiacElectricalActivation
-Simple biventricular cardiac electrical activation model using shortest path tree algorithm
+Simple biventricular cardiac electrical activation model using shortest path tree algorithm. This model was used in a study published by [Oomen+ 2021](https://doi.org/10.1007/s10237-021-01532-7).
 
 # Model Creation
 The electrical model is based on a canine, biventricular geometry segmented from CINE MRI data. A finite-element mesh representing the left and right ventricular geometries was generated using methods previously published methods ([Herz+ 2020](https://doi.org/10.1007/s10439-005-3312-7), [Phung+ 2020](https://doi.org/10.1115/1.4043876)). The model geometry is stored in the variable `<MODEL>`. This information includes the neighbor connectivity as well as the directions of the myocardial muscle fibers in each element.
